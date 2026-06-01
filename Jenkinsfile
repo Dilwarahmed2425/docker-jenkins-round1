@@ -5,7 +5,7 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t wrong-app .'
+                sh 'docker build -t wrong-pp .'
             }
         }
 
